@@ -2,4 +2,4 @@
 ## Descripción
 Repositorio creado con el fin de dar respuesta a la prueba de selección en proceso para el cargo de Applications Operation Specialist.
 ## Autora
-[Yessica](https://www.linkedin.com/in/yessica-camargo98/)
+[Yessica Camargo](https://www.linkedin.com/in/yessica-camargo98/)
