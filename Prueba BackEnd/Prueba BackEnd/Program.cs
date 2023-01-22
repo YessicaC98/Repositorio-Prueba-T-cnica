@@ -1,4 +1,4 @@
-using Users;
+using Test;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +26,19 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 app.Run();
 
-using var userContext = new UserContext("server=127.0.0.1;uid=root;pwd=NamiLuffy1;database=bdclientes");

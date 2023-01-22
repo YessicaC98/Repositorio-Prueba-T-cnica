@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Users;
+namespace Test;
 
     internal class UserContext : DbContext
 {
@@ -19,6 +19,6 @@ namespace Users;
         }
 
 
-
+         
 
     }

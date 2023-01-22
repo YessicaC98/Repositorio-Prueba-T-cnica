@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Test;
 
 namespace Prueba_BackEnd.Controllers
 {
@@ -9,13 +10,22 @@ namespace Prueba_BackEnd.Controllers
             return View();
         }
 
-        public string[] Get()
-        {
-            return new string[]
-            {
-        "Hello",
-        "World"
-            };
+        public Users Get(string usuario)
+        {   
+           Users users = new Users();
+            users.Usuario = usuario;
+           
+           return DataConfig.Singleton.userContext.Users.Single<Users>((queryusuario => queryusuario.Usuario == usuario));
+
+            
+
+
+
+
+
+
+
+
         }
 
     }

@@ -34,7 +34,7 @@ function checkPermitido(obj) {
       
       var xhttp = new XMLHttpRequest();
       
-      xhttp.open("GET", "https://localhost:7191/user/get", true);
+      xhttp.open("GET", "https://localhost:7191/user/get?usuario=" + obj.username, true);
       xhttp.setRequestHeader("Content-type", "application/json");
       xhttp.send();
   
