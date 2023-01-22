@@ -28,23 +28,39 @@ function checkFormulario() {
 
 function checkPermitido(obj) {
   try {
-    const permitido = {
-      username: 'Masiv',
-      password: 2023,
-      accept: true,
-    };
-    if (
-      obj.username === permitido.username &&
-      parseInt(obj.password) === permitido.password &&
-      obj.accept === permitido.accept
-    ) {
-      window.open('aplication.html', '_self');
-    } else {
-      alert(
-        'Usuario no registrado. Intenta nuevamente!',
-        'warning'
-      );
-    }
+
+
+
+      
+      var xhttp = new XMLHttpRequest();
+      
+      xhttp.open("GET", "https://localhost:7191/user/get", true);
+      xhttp.setRequestHeader("Content-type", "application/json");
+      xhttp.send();
+  
+
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            alert(this.responseText);
+            var permitido = JSON.parse(this.responseText);
+            if (
+              obj.username === permitido.username &&
+              parseInt(obj.password) === permitido.password &&
+              obj.accept === permitido.accept
+            ) {
+              window.open('aplication.html', '_self');
+            } else {
+              alert(
+                'Usuario no registrado. Intenta nuevamente!',
+                'warning'
+              );
+            }
+        }
+       };
+
+
+    
+   
   } catch (error) {
     console.log('se produjo un error en la función checkPermitido:', error);
   }

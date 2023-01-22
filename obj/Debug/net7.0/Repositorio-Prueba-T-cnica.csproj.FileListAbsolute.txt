@@ -1,0 +1,15 @@
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\bin\Debug\net7.0\Repositorio-Prueba-T-cnica.exe
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\bin\Debug\net7.0\Repositorio-Prueba-T-cnica.deps.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\bin\Debug\net7.0\Repositorio-Prueba-T-cnica.runtimeconfig.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\bin\Debug\net7.0\Repositorio-Prueba-T-cnica.dll
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\bin\Debug\net7.0\Repositorio-Prueba-T-cnica.pdb
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.csproj.AssemblyReference.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.AssemblyInfoInputs.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.AssemblyInfo.cs
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.csproj.CoreCompileInputs.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.dll
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\refint\Repositorio-Prueba-T-cnica.dll
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.pdb
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\Repositorio-Prueba-T-cnica.genruntimeconfig.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\obj\Debug\net7.0\ref\Repositorio-Prueba-T-cnica.dll

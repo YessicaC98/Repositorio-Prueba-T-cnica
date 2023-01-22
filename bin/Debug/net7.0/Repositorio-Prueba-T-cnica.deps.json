@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Repositorio-Prueba-T-cnica/1.0.0": {
+        "runtime": {
+          "Repositorio-Prueba-T-cnica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Repositorio-Prueba-T-cnica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

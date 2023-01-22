@@ -1,0 +1,31 @@
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\appsettings.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\Prueba BackEnd.staticwebassets.runtime.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\Prueba BackEnd.exe
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\Prueba BackEnd.deps.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\Prueba BackEnd.runtimeconfig.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\Prueba BackEnd.dll
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\bin\Debug\net6.0\Prueba BackEnd.pdb
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.csproj.AssemblyReference.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.AssemblyInfoInputs.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.AssemblyInfo.cs
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.RazorAssemblyInfo.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.RazorAssemblyInfo.cs
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\staticwebassets\msbuild.Prueba BackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.Prueba BackEnd.props
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Prueba BackEnd.props
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Prueba BackEnd.props
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\scopedcss\bundle\Prueba BackEnd.styles.css
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\scopedcss\projectbundle\Prueba BackEnd.bundle.scp.css
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.dll
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\refint\Prueba BackEnd.dll
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.pdb
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\Prueba BackEnd.genruntimeconfig.cache
+C:\Users\Janus\MiGitHub\Repositorio-Prueba-T-cnica\Prueba BackEnd\Prueba BackEnd\obj\Debug\net6.0\ref\Prueba BackEnd.dll
