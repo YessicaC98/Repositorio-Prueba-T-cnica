@@ -15,8 +15,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       builder =>
                       {
-                          builder.AllowAnyOrigin() .AllowAnyMethod() .AllowAnyHeader();
-                          
+                          builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+
                       });
 });
 
@@ -44,4 +44,3 @@ app.MapControllerRoute(
 app.UseCors(MyAllowSpecificOrigins);
 
 app.Run();
-

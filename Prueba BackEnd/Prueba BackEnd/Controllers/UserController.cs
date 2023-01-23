@@ -11,11 +11,11 @@ namespace Prueba_BackEnd.Controllers
         }
 
         public Users Get(string usuario)
-        {   
-           Users users = new Users();
+        {
+            Users users = new Users();
             users.Usuario = usuario;
-           
-           return DataConfig.Singleton.userContext.Users.Single<Users>((queryusuario => queryusuario.Usuario == usuario));
+
+            return DataConfig.Singleton.userContext.Users.Single<Users>((queryusuario => queryusuario.Usuario == usuario));
 
         }
 
@@ -27,7 +27,6 @@ namespace Prueba_BackEnd.Controllers
             DataConfig.Singleton.userContext.Add(users);
             DataConfig.Singleton.userContext.SaveChanges();
         }
-        
+
     }
 }
-

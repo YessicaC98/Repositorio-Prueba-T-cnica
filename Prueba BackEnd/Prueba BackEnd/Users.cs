@@ -4,10 +4,10 @@ namespace Test
 {
     public class Users
     {
-        [Key] 
+        [Key]
         public int IdUsuario { get; set; }
-      public string Usuario { get; set; }  
-      public string Contraseña { get; set; }
+        public string Usuario { get; set; }
+        public string Contraseña { get; set; }
 
     }
 }
