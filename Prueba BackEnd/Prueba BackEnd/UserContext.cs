@@ -17,8 +17,4 @@ namespace Test;
         {
             optionsBuilder.UseMySQL(connectionString);
         }
-
-
-         
-
     }

@@ -19,14 +19,20 @@ namespace Prueba_BackEnd.Controllers
 
         }
 
-        public void Add(string usuario, string contraseña)
+        public void Add(string usuario, string contrasena)
         {
             Users users = new Users();
             users.Usuario = usuario;
-            users.Contraseña = contraseña;
-            DataConfig.Singleton.userContext.Users.Add(users);
+            users.Contraseña = contrasena;
+            DataConfig.Singleton.userContext.Add(users);
+            DataConfig.Singleton.userContext.SaveChanges();
         }
+        public List<Users> FindAll()
+        {
+            
+            return DataConfig.Singleton.userContext.Users.ToList();
 
+        }
     }
 }
 

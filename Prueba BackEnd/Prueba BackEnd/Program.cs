@@ -43,17 +43,5 @@ app.MapControllerRoute(
 
 app.UseCors(MyAllowSpecificOrigins);
 
-
-
-
-
-
-
-
-
-
-
-
-
 app.Run();
 

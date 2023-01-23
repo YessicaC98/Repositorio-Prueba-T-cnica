@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
 const $form = document.getElementById('form');
 const $legend = document.getElementsByTagName('legend')[0];
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder');
@@ -25,36 +25,52 @@ function checkFormulario() {
   else return false;
 }
 
-function checkPermitido(obj) {
+function datostabla() {
   try {
-      var xhttp = new XMLHttpRequest();
-      
-      xhttp.open("GET", "https://localhost:7191/user/get?usuario=" + obj.usuario, true);
-      xhttp.setRequestHeader("Content-type", "application/json");
-      xhttp.send();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            alert(this.responseText);
-            var permitido = JSON.parse(this.responseText);
-            if (
-              obj.usuario === permitido.usuario &&
-              obj.contraseña === permitido.contraseña
-            ) {
-              window.open('aplication.html', '_self');
-            } else {
-              alert(
-                'Usuario no registrado. Intenta nuevamente!',
-                'warning'
-              );
-            }
-        }
-       };
+    var xhttp = new XMLHttpRequest();
+    
+    xhttp.open("ADD", "https://localhost:7191/user/findall", true);
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.send();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+      }
+     };
   } catch (error) {
-    console.log('se produjo un error en la función checkPermitido:', error);
+  console.log('se produjo un error en la función checkPermitido:', error);
   }
 }
 
+datostabla();
 
+
+
+
+
+
+
+
+
+
+
+
+
+function Guardausuario(obj) {
+    try {
+        var xhttp = new XMLHttpRequest();
+        
+        xhttp.open("ADD", "https://localhost:7191/user/add?usuario=" + obj.usuario + "&contrasena=" + obj.contraseña, true);
+        xhttp.setRequestHeader("Content-type", "application/json");
+        xhttp.send();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+          }
+         };
+    } catch (error) {
+      console.log('se produjo un error en la función checkPermitido:', error);
+    }
+  }
+  
 $form.usuario.addEventListener('input', (e) => {
   formulario.usuario = e.target.value;
 });
@@ -66,7 +82,7 @@ $form.contraseña.addEventListener('input', (e) => {
 $form.addEventListener('submit', (e) => {
   e.preventDefault();
   if (checkFormulario() === true) {
-    checkPermitido(formulario);
+    Guardausuario(formulario);
   } else {
     $legend.classList.add('text-danger');
     alert('Todos los campos son obligatorios.', 'danger');
