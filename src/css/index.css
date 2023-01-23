@@ -13,8 +13,8 @@ header {
     color: black;
     text-align: center;
     margin: 100px;
-    height: 100px;
-    border-radius: 200px;
+    height: 120px;
+    border-radius: 30px;
 }
 main {
     margin-left: auto;
@@ -26,7 +26,7 @@ main {
     align-content: center;
     height: 300px;
     margin: 100px;
-    width: 1500px;
+    
     
 }
 footer {
@@ -39,4 +39,136 @@ footer {
 .parrafo {
     color: red;
     font-size: small;
+}
+@media (max-width:1024px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        color: lightblue;
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+    header {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+        margin: 100px;
+        height: 120px;
+        border-radius: 30px;
+    }
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px double lightblue;
+        border-radius: 30px;
+        text-align: center;
+        padding: auto;
+        align-content: center;
+        height: 300px;
+        margin: 100px;
+        
+        
+    }
+    footer {
+        background-color: lightblue;
+        text-align: center;
+        color: black;
+        height: 300px;
+       
+    }
+    .parrafo {
+        color: red;
+        font-size: small;
+    }
+}
+@media (max-width:768px){
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        color: lightblue;
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+    header {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+        margin: 100px;
+        height: 120px;
+        border-radius: 30px;
+    }
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px double lightblue;
+        border-radius: 30px;
+        text-align: center;
+        padding: auto;
+        align-content: center;
+        height: 300px;
+        margin: 100px;
+        
+        
+    }
+    footer {
+        background-color: lightblue;
+        text-align: center;
+        color: black;
+        height: 300px;
+       
+    }
+    .parrafo {
+        color: red;
+        font-size: small;
+    }
+}
+@media (max-width:425px){
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        color: lightblue;
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+    header {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+        margin: 100px;
+        height: 120px;
+        border-radius: 30px;
+    }
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px double lightblue;
+        border-radius: 30px;
+        text-align: center;
+        padding: auto;
+        align-content: center;
+        height: 300px;
+        margin: 100px;
+    
+        
+    }
+    footer {
+        background-color: lightblue;
+        text-align: center;
+        color: black;
+        height: 300px;
+       
+    }
+    .parrafo {
+        color: red;
+        font-size: small;
+    }
 }

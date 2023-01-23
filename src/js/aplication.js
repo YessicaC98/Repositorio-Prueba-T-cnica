@@ -28,7 +28,7 @@ function checkFormulario() {
 function Guardausuario(obj) {
     try {
         var xhttp = new XMLHttpRequest();
-        
+
         xhttp.open("ADD", "https://localhost:7191/user/add?usuario=" + obj.usuario + "&contrasena=" + obj.contraseña, true);
         xhttp.setRequestHeader("Content-type", "application/json");
         xhttp.send();
@@ -40,7 +40,7 @@ function Guardausuario(obj) {
       console.log('se produjo un error en la función checkPermitido:', error);
     }
   }
-  
+
 $form.usuario.addEventListener('input', (e) => {
   formulario.usuario = e.target.value;
 });
