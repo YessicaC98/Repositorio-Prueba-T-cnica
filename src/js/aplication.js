@@ -25,36 +25,6 @@ function checkFormulario() {
   else return false;
 }
 
-function datostabla() {
-  try {
-    var xhttp = new XMLHttpRequest();
-    
-    xhttp.open("ADD", "https://localhost:7191/user/findall", true);
-    xhttp.setRequestHeader("Content-type", "application/json");
-    xhttp.send();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-      }
-     };
-  } catch (error) {
-  console.log('se produjo un error en la función checkPermitido:', error);
-  }
-}
-
-datostabla();
-
-
-
-
-
-
-
-
-
-
-
-
-
 function Guardausuario(obj) {
     try {
         var xhttp = new XMLHttpRequest();

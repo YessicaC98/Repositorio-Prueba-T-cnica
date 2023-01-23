@@ -27,12 +27,7 @@ namespace Prueba_BackEnd.Controllers
             DataConfig.Singleton.userContext.Add(users);
             DataConfig.Singleton.userContext.SaveChanges();
         }
-        public List<Users> FindAll()
-        {
-            
-            return DataConfig.Singleton.userContext.Users.ToList();
-
-        }
+        
     }
 }
 
