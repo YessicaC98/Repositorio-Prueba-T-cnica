@@ -4,9 +4,8 @@ const $legend = document.getElementsByTagName('legend')[0];
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder');
 
 const formulario = {
-  username: null,
-  password: null,
-  accept: null,
+  usuario: null,
+  contraseña: null,
 };
 
 const alert = (message, type) => {
@@ -21,32 +20,26 @@ const alert = (message, type) => {
 };
 
 function checkFormulario() {
-  if (formulario.username && formulario.password && formulario.accept)
+  if (formulario.usuario && formulario.contraseña)
     return true;
   else return false;
 }
 
 function checkPermitido(obj) {
   try {
-
-
-
-      
       var xhttp = new XMLHttpRequest();
       
-      xhttp.open("GET", "https://localhost:7191/user/get?usuario=" + obj.username, true);
+      xhttp.open("GET", "https://localhost:7191/user/get?usuario=" + obj.usuario, true);
       xhttp.setRequestHeader("Content-type", "application/json");
       xhttp.send();
   
-
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             alert(this.responseText);
             var permitido = JSON.parse(this.responseText);
             if (
-              obj.username === permitido.username &&
-              parseInt(obj.password) === permitido.password &&
-              obj.accept === permitido.accept
+              obj.usuario === permitido.usuario &&
+              obj.contraseña === permitido.contraseña
             ) {
               window.open('aplication.html', '_self');
             } else {
@@ -66,16 +59,12 @@ function checkPermitido(obj) {
   }
 }
 
-$form.username.addEventListener('input', (e) => {
-  formulario.username = e.target.value;
+$form.usuario.addEventListener('input', (e) => {
+  formulario.usuario = e.target.value;
 });
 
-$form.password.addEventListener('input', (e) => {
-  formulario.password = e.target.value;
-});
-
-$form.accept.addEventListener('change', (e) => {
-  formulario.accept = e.target.checked;
+$form.contraseña.addEventListener('input', (e) => {
+  formulario.contraseña = e.target.value;
 });
 
 $form.addEventListener('submit', (e) => {

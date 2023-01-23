@@ -1,9 +1,24 @@
 using Test;
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
+builder.Services.AddCors(options =>
+
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      builder =>
+                      {
+                          builder.AllowAnyOrigin() .AllowAnyMethod() .AllowAnyHeader();
+                          
+                      });
+});
 
 var app = builder.Build();
 
@@ -26,7 +41,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-
+app.UseCors(MyAllowSpecificOrigins);
 
 
 

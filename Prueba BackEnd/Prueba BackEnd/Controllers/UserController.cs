@@ -17,15 +17,14 @@ namespace Prueba_BackEnd.Controllers
            
            return DataConfig.Singleton.userContext.Users.Single<Users>((queryusuario => queryusuario.Usuario == usuario));
 
-            
+        }
 
-
-
-
-
-
-
-
+        public void Add(string usuario, string contraseña)
+        {
+            Users users = new Users();
+            users.Usuario = usuario;
+            users.Contraseña = contraseña;
+            DataConfig.Singleton.userContext.Users.Add(users);
         }
 
     }
