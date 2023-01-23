@@ -32,7 +32,6 @@ function checkPermitido(obj) {
       xhttp.open("GET", "https://localhost:7191/user/get?usuario=" + obj.usuario, true);
       xhttp.setRequestHeader("Content-type", "application/json");
       xhttp.send();
-  
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             alert(this.responseText);
@@ -42,6 +41,41 @@ function checkPermitido(obj) {
               obj.contraseña === permitido.contraseña
             ) {
               window.open('aplication.html', '_self');
+            } else {
+              alert(
+                'Usuario no registrado. Intenta nuevamente!',
+                'warning'
+              );
+            }
+        }
+       };
+
+
+    
+   
+  } catch (error) {
+    console.log('se produjo un error en la función checkPermitido:', error);
+  }
+}
+
+
+
+function Guardausuario(obj) {
+  try {
+      var xhttp = new XMLHttpRequest();
+      
+      xhttp.open("ADD", "https://localhost:7191/user/add?usuario=&contraseña=" + obj.usuario, true);
+      xhttp.setRequestHeader("Content-type", "application/json");
+      xhttp.send();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            alert(this.responseText);
+            var Guardarusuario = JSON.parse(this.responseText);
+            if (
+              obj.usuario === Guardarusuario.usuario &&
+              obj.contraseña === Guardarusuario.contraseña
+            ) {
+              window.open('index.html', '_self');
             } else {
               alert(
                 'Usuario no registrado. Intenta nuevamente!',
